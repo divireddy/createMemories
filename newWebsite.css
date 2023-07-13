@@ -1,0 +1,144 @@
+.bgcolor {
+    height: 100%;
+    background-color: darkcyan;
+}
+.place{
+    color: white;
+    margin-top: 53px;
+position: fixed;
+}
+.style1{
+margin-left:450px;
+}
+
+.style2{
+margin-left:600px;
+}
+
+.style3{
+margin-left:745px;
+}
+
+.place a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.place a:hover {
+    color: black;
+}
+
+* {
+  box-sizing: border-box;
+ 
+}
+
+.search-container {
+  position: fixed;
+  top: 361px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Style the search field */
+.search-container input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 15%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.search-container button {
+  float: left;
+  width: 5%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+.search-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img{
+width:300px;
+height:300px;
+position:fixed;
+}
+
+.placea{
+    color: black;
+    margin-top: 53px;
+position: fixed;
+}
+.style4{
+margin-left:895px;
+}
+
+.style5{
+margin-left:1021px;
+}
+
+p{
+ position: fixed;
+  top: 480px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+font-size:23px;
+font-family: system-ui;
+}
+
+h1{
+ position: fixed;
+  top: 190px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wave {
+  animation-name: wave-animation;  
+  animation-duration: 2.5s;        
+  animation-iteration-count: infinite;  
+  transform-origin: 70% 70%;       
+  display: inline-block;
+  margin-left: 1201px;
+    margin-top: 233px;
+font-size:53px;
+position:fixed;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) } 
+  100% { transform: rotate( 0.0deg) }
+}
+
+
